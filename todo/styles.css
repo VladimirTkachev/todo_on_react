@@ -1,0 +1,57 @@
+
+
+.header {
+    height: 36px;
+    background: #fcfc9a;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.out {
+    margin-left: 10px;
+}
+
+.mainwrap {
+    display: flex;
+}
+
+.task {
+    min-height: 80px;
+    border-bottom: 1px solid #9e9e9e;
+    text-align: center;
+    padding: 5px;
+}
+
+.support {
+    flex: 4;
+}
+
+.wrap {
+    background: #fcfc9a;
+    flex: 4;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.wrapbtn {
+    display: flex;
+}
+
+.edit {
+    flex: 6;
+    text-align: center;
+}
+
+.remove {
+    flex: 6;
+    text-align: center;
+}
+
+@media (max-width: 876px) {
+    .support {
+     display: none;
+    }
+   }
+
